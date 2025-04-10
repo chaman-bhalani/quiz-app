@@ -1,4 +1,4 @@
-@import "../../styles/vars.scss";
+@use "../../styles/vars.scss" as *;
 
 .quiz-container {
   position: relative;
@@ -73,8 +73,7 @@
     }
   }
 
-
-  input{
+  input {
     border: 1px solid $disabled;
     border-radius: 4px;
     padding: 10px 20px;
